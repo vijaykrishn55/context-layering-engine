@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-layering-engine"
+version = "1.0.0"
+description = "A validated XML/JSON context layering engine with local-model security evaluation"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+asyncio_mode = "auto"

@@ -1,0 +1,14 @@
+{
+  "knowledge_base": {
+    "customer_id": "CUST-99281",
+    "name": "Acme Corporation",
+    "tier": "Enterprise",
+    "account_balance": 1450.5,
+    "active_tickets": [
+      "TICK-101: API Rate Limiting",
+      "TICK-105: SSO Configuration"
+    ]
+  },
+  "user_query": "What is my account balance and what are my active ticket IDs?",
+  "request_id": "example-request-001"
+}
